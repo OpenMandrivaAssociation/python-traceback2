@@ -10,8 +10,9 @@ License:        Python Software Foundation License
 URL:            https://github.com/testing-cabal/traceback2
 Source0:        https://pypi.python.org/packages/source/t/%{srcname}/%{srcname}-%version.tar.gz
 BuildArch:      noarch
-BuildRequires:  pkgconfig(python3)
-BuildRequires:  python3egg(setuptools)
+BuildRequires:  pkgconfig(python)
+BuildRequires:  python3dist(setuptools)
+BuildRequires:  python3dist(pbr)
 
 %description
 A backport of traceback to older supported Pythons.
@@ -21,7 +22,7 @@ Summary:        Backports of the traceback module
 Group:          Development/Python
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python2)
-BuildRequires:  pythonegg(setuptools)
+BuildRequires:  python2dist(setuptools)
 
 %description -n python2-%{srcname}
 A backport of traceback to older supported Pythons.
