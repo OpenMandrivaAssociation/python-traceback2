@@ -13,6 +13,7 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
 BuildRequires:  python3dist(pbr)
+Requires:       python3dist(linecache2)
 
 %description
 A backport of traceback to older supported Pythons.
