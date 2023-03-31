@@ -2,7 +2,7 @@
 
 Name:		python-%{srcname}
 Version:	1.4.0
-Release:	2
+Release:	3
 Summary:	Backports of the traceback module
 Group:		Development/Python
 License:	Python Software Foundation License
